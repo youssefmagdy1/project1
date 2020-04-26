@@ -37,7 +37,7 @@
         <div class="project container-fluid ">
             <div class="row">   
             <?php 
-                include '../connect.php';
+                include 'connect.php';
                 $conn= open_connection() ;
                 
                 $sql = " SELECT id, img ,lable ,time  FROM imges " ; 
