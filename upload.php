@@ -1,5 +1,5 @@
 <?php
-include '../connect.php' ;
+include 'connect.php' ;
 $conn = open_connection();
 $target_dir = '/var/www/project/uploads/'; //$target_dir = "uploads/" - specifies the directory where the file is going to be placed
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]); //$target_file specifies the path of the file to be uploaded
