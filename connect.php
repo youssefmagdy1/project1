@@ -4,8 +4,8 @@
 function open_connection(){
 
     $serverName = "localhost";
-    $userName ="root";
-    $password ="";
+    $userName ="youssef";
+    $password ="9nyKOAPRoKWY3n8c";
     $dpname="project1";
     // create connection 
     $conn = new mysqli($serverName ,$userName ,$password ,$dpname);
